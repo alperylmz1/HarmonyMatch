@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "harmonymatch"
+version = "0.1.0"
+description = ""
+authors = ["alperylmz1 <alperylmz0102@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.general.dependencies]
+numpy = "^2.2.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+pyyaml = "^6.0.2"
+python-dotenv = "^1.0.1"
+fastapi = "^0.115.6"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.development.dependencies]
+pytest = "^8.3.4"
+pre-commit = "^4.0.1"
+ruff = "^0.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
